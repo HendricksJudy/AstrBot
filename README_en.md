@@ -82,6 +82,7 @@ See docs: [Source Code Deployment](https://astrbot.app/deploy/astrbot/cli.html)
 | OpenAI API                | ✔       | Text Generation        | Supports all OpenAI API-compatible services including DeepSeek, Google Gemini, GLM, Moonshot, Alibaba Cloud Bailian, Silicon Flow, xAI, etc. |
 | Claude API                | ✔       | Text Generation        |                                                                       |
 | Google Gemini API         | ✔       | Text Generation        |                                                                       |
+| Google Agent SDK          | ✔       | Agent SDK              | [Documentation](https://google.github.io/adk-docs/) |
 | Dify                      | ✔       | LLMOps                 |                                                                       |
 | DashScope (Alibaba Cloud) | ✔       | LLMOps                 |                                                                       |
 | Ollama                    | ✔       | Model Loader           | Local deployment for open-source LLMs (DeepSeek, Llama, etc.)         |

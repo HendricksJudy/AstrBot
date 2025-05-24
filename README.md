@@ -38,6 +38,8 @@ AstrBot 是一个松耦合、异步、支持多消息平台部署、具有易用
 ## ✨ 近期更新
 
 1. AstrBot 现已支持接入 [MCP](https://modelcontextprotocol.io/) 服务器！
+2. 现已集成 [Google Agent SDK](https://google.github.io/adk-docs/)
+
 
 ## ✨ 主要功能
 
@@ -131,6 +133,7 @@ uvx astrbot init
 | OpenAI API | ✔    | 文本生成 | 也支持 DeepSeek、Google Gemini、GLM、Kimi、xAI 等兼容 OpenAI API 的服务 |
 | Claude API | ✔    | 文本生成 |  |
 | Google Gemini API | ✔    | 文本生成 |  |
+| Google Agent SDK | ✔    | Agent SDK | [https://google.github.io/adk-docs/](https://google.github.io/adk-docs/) |
 | Dify | ✔    | LLMOps |  |
 | 阿里云百炼应用 | ✔    | LLMOps |  |
 | Ollama | ✔    | 模型加载器 | 本地部署 DeepSeek、Llama 等开源语言模型 |

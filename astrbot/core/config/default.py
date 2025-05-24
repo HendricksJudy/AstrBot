@@ -630,6 +630,17 @@ CONFIG_METADATA_2 = {
                             "budget": 0,
                         },
                     },
+                    "Google Agent SDK": {
+                        "id": "google_agent_default",
+                        "type": "google_agent_sdk",
+                        "provider_type": "chat_completion",
+                        "enable": False,
+                        "key": [],
+                        "timeout": 120,
+                        "model_config": {
+                            "model": "gemini-1.5-pro",
+                        },
+                    },
                     "DeepSeek": {
                         "id": "deepseek_default",
                         "type": "openai_chat_completion",
