@@ -70,6 +70,7 @@ See docs: [Source Code Deployment](https://astrbot.app/deploy/astrbot/cli.html)
 | [Telegram](https://github.com/Soulter/astrbot_plugin_telegram) | ✔      | Private/Group chats | Text, Images        |
 | [WeChat Work](https://github.com/Soulter/astrbot_plugin_wecom) | ✔      | Private chats       | Text, Images, Voice |
 | Feishu                                                         | ✔      | Group chats         | Text, Images        |
+| Google Chat                                                    | ✔      | Private/Group chats | Text |
 | WeChat Open Platform                                           | 🚧      | Planned             | -                   |
 | Discord                                                        | 🚧      | Planned             | -                   |
 | WhatsApp                                                       | 🚧      | Planned             | -                   |
@@ -93,6 +94,13 @@ See docs: [Source Code Deployment](https://astrbot.app/deploy/astrbot/cli.html)
 | SenseVoice                | ✔       | Speech-to-Text         | Local deployment                                                     |
 | OpenAI TTS API            | ✔       | Text-to-Speech         |                                                                       |
 | Fishaudio                 | ✔       | Text-to-Speech         | Project involving GPT-Sovits author                                  |
+### Google Chat Configuration
+1. Create an incoming webhook in Google Chat
+2. Put the generated URL in `google_chat_webhook_url`
+3. To receive messages, set `google_chat_verification_token`, `google_chat_callback_server_host` and `google_chat_port`
+4. Set `google_chat_bot_name` as the bot display name
+5. Restart AstrBot to apply changes
+
 
 # 🦌 Roadmap
 

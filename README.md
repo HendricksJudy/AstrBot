@@ -121,6 +121,7 @@ uvx astrbot init
 | 微信客服    | ✔    | 私聊 | 文字、图片 |
 | 飞书   | ✔    | 私聊、群聊 | 文字、图片 |
 | 钉钉   | ✔    | 私聊、群聊 | 文字、图片 |
+| Google Chat | ✔    | 私聊、群聊 | 文字 |
 | 微信对话开放平台 | 🚧    | 计划内 | - |
 | Discord   | 🚧    | 计划内 | - |
 | WhatsApp   | 🚧    | 计划内 | - |
@@ -150,6 +151,13 @@ uvx astrbot init
 | Edge TTS | ✔    | 文本转语音 | Edge 浏览器的免费 TTS |
 | 阿里云百炼 TTS | ✔    | 文本转语音 |  |
 | Azure TTS | ✔    | 文本转语音 | Microsoft Azure TTS |
+
+### Google Chat 配置示例
+1. 在 Google Chat 中创建 Incoming Webhook
+2. 将生成的 Webhook URL 填入 `google_chat_webhook_url`
+3. 如需接收消息，设置 `google_chat_verification_token`、`google_chat_callback_server_host` 和 `google_chat_port`
+4. 配置 `google_chat_bot_name` 为机器人显示名称
+5. 重启 AstrBot 使配置生效
 
 
 ## ❤️ 贡献
